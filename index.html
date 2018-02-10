@@ -13,13 +13,17 @@
 <body>
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <!-- <a id="logo-container" href="#" class="brand-logo"><img class="responsive-img" alt="flying J logo" src="logo.jpg"></a> -->
+      <a id="logo-container" href="#" class="brand-logo">Flying Js</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#travel">Travel</a></li>
+        <li><a href="#gifts">Gifts</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#travel">Travel</a></li>
+        <li><a href="#gifts">Gifts</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
@@ -27,17 +31,17 @@
 
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
-      <div class="container">
+      <div class="container" id="home">
         <br><br>
-        <div class="left-align">
+        <div class="center-align">
         <img class="responsive-img" alt="flying J logo" src="logo.jpg">
       </div>
-        <h3 class="header left teal-text text-lighten-2">4.14.2018</h3>
+        <h3 class="header center teal-text text-lighten-2">4.14.2018</h3>
         <div class="row">
-          <h5 class="header col s12 light">The Flying Js are getting married.</h5>
+          <h5 class="header center col s12 light">The Flying Js are getting married.</h5>
         </div>
-        <div class="row">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large pulse waves-effect waves-light teal lighten-1">RSVP</a>
+        <div class="row center">
+          <a href="#" class="btn-large waves-effect waves-light teal lighten-1">RSVP</a>
         </div>
         <br><br>
 
@@ -57,10 +61,11 @@
             <h2 class="center brown-text"><i class="material-icons">all_inclusive</i></h2>
             <h5 class="center">Ceremony</h5>
 
-            <p class="light">11:30 AM, April 14, 2018<br>
+            <p class="light center">11:30 AM, April 14, 2018<br>
               County Line on the Lake<br>
               5204 FM 2222, Austin TX 78731<br>
             </p>
+            <p class="center"><a href="https://www.google.com/maps/dir/''/the+county+line+on+the+lake/@30.4037601,-97.9141057,10.9z/data=!4m8!4m7!1m0!1m5!1m1!1s0x865b34ccc572d0a3:0xbbbe7f365deae059!2m2!1d-97.7856212!2d30.357107" target="_blank">Get directions</a></p>
           </div>
         </div>
 
@@ -69,16 +74,18 @@
             <h2 class="center brown-text"><i class="material-icons">local_bar</i></h2>
             <h5 class="center">Reception</h5>
 
-            <p class="light">Following the ceremony, guest are invited to join us for BBQ appetizers, beverages, and yard games. </p>
+            <p class="light center">Following the ceremony, guest are invited to join us for appetizers, beverages, and yard games.</p>
+            <p class="center"><a href="https://giphy.com/gifs/26BoDOvKcWdmfjIXK/html5" target="_blank">Get down</a></p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center brown-text"><i class="material-icons">add_a_photo</i></h2>
-            <h5 class="center">Share the moments</h5>
+            <h5 class="center">Photos</h5>
 
-            <p class="light">You are our photographers! Help us save the memories by adding to our google photo library</p>
+            <p class="light center">You are our photographers! Help us remember our special day by adding to our google photo library.</p>
+            <p class="center"><a href="#" target="_blank">Upload photos</a></p>
           </div>
         </div>
       </div>
@@ -99,57 +106,41 @@
   </div>
 
   <div class="container">
-    <div class="section">
+    <div class="section" id="travel">
 
       <div class="row">
-        <div class="col s12 m8 left">
-          <h4><i class="material-icons large">card_travel</i>Accommodations</h4>
+        <div class="col s12 m6 right-align">
+          <h4>Accommodations</h4>
+          <p class="light">We highly reccommend <a href="https://www.habitatsuites.com">Habitat Suites</a>, a locally owned eco-friendly hotel near our home. Our family has stayed here many times and we absolutely love it. Guests are also welcome to book via Airbnb, HomeAway, or any other vacation website of choice. Please reach out to us if you have any questions about where to stay.</p>
+        </div>
+        <div class="col s12 m6">
+          <div class="card horizontal">
+            <div class="card-image">
+              <img src="habitat-suites-logo.png">
+            </div>
+            <div class="card-stacked">
+            <div class="card-content">
+              <span class="card-title">Habitat Suites</span>
+              <p>Our favorite Austin hotel.</p>
+            </div>
+
+            <div class="card-action">
+              <a href="#">Book here<i class="material-icons">arrow_forward</i></a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col s12 m6 right">
+          <h4>Travel</h4>
           <p class="left-align light">You have lots of options! We highly reccommend <a href="https://www.habitatsuites.com">Habitat Suites</a>, a locally owned eco-friendly hotel near our home. Our family has stayed here many times and we absolutely love it. Guests are also welcome to book via Airbnb, Homeaway, or any other vaction website of choice. Please reach out to us if you have any questions about where to stay.</p>
         </div>
-    <div class="col s12 m4">
-      <div class="card">
-        <div class="card-image">
-          <img src="habitat-suites-logo.png">
-          
-          <a class="btn-floating halfway-fab waves-effect waves-light red" href="https://www.habitatsuites.com/" target="_blank"><i class="material-icons">arrow_forward</i></a>
-        </div>
-        <div class="card-content">
-          <span class="card-title">Habitat Suites</span>
-          <p>Our favorite Austin hotel.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col s12 m4">
-      <div class="card">
-        <div class="card-image">
-          <img src="airbnb.png">
-          
-          <a class="btn-floating halfway-fab waves-effect waves-light red" href="https://www.habitatsuites.com/" target="_blank"><i class="material-icons">arrow_forward</i></a>
-        </div>
-        <div class="card-content">
-          <span class="card-title">Airbnb</span>
-          <p>Book a local spot via Airbnb.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col s12 m4">
-      <div class="card">
-        <div class="card-image">
-          <img src="homeaway.svg">
-          
-          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">arrow_forward</i></a>
-        </div>
-        <div class="card-content">
-          <span class="card-title">HomeAway</span>
-          <p>Rent something from HomeAway</p>
-        </div>
-      </div>
-    </div>
-  </div>
 
     </div>
-  </div>
-
+</div>
+</div>
 
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
